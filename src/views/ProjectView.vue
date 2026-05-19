@@ -34,7 +34,7 @@ const projects = [
     desc: '从HelloTlk 如何让陌生人愿意开口说第一句话的角度 体验软件',
     role: '产品体验报告 · 竞品分析',
     tags: ['报告文档'],
-    points: ['自定义数据看板，支持多维图表组合', '习惯打卡与目标管理，提升自我管理效率', '响应式设计，支持多端同步'],
+    points: ['与Tandem进行产品对比', '从多角度出发分析', '学习软件怎么才能留存'],
     image: helloTalkImage,
     detailTo: '/project/personal-dashboard',
     flipped: true,
