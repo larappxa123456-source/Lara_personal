@@ -1,0 +1,78 @@
+<template>
+  <svg
+    class="cloudscape"
+    viewBox="0 0 1440 520"
+    preserveAspectRatio="none"
+    aria-hidden="true"
+    focusable="false"
+  >
+    <defs>
+      <linearGradient id="cloudPink" x1="0%" y1="14%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#ffd3d8" />
+        <stop offset="54%" stop-color="#ffe0df" />
+        <stop offset="100%" stop-color="#ffc1cc" />
+      </linearGradient>
+      <linearGradient id="cloudPeach" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#fff3ed" />
+        <stop offset="100%" stop-color="#ffd4d8" />
+      </linearGradient>
+      <filter id="cloudSoftShadow" x="-10%" y="-22%" width="120%" height="130%">
+        <feDropShadow dx="0" dy="-12" stdDeviation="11" flood-color="#ffffff" flood-opacity="0.72" />
+        <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#ffabb6" flood-opacity="0.16" />
+      </filter>
+    </defs>
+
+    <path
+      class="cloud-fill cloud-fill-back"
+      d="M-72 520V352C-28 310 18 298 62 318C90 270 140 246 190 258C224 224 278 216 324 244C358 266 374 298 372 334C422 326 470 352 494 394C530 392 564 410 592 446C610 470 626 494 646 520Z"
+    />
+    <path
+      class="cloud-stroke"
+      d="M-64 354C-24 312 18 298 62 318C90 270 140 246 190 258C224 224 278 216 324 244C358 266 374 298 372 334C422 326 470 352 494 394C530 392 564 410 592 446"
+    />
+    <path
+      class="cloud-dash"
+      d="M-46 364C-10 330 28 320 66 336C96 292 140 272 184 282C222 252 274 248 314 272C344 290 358 318 356 350C402 346 444 366 468 402C502 404 534 420 558 448"
+    />
+
+    <path
+      class="cloud-fill cloud-fill-front"
+      d="M-90 520V414C-44 374 16 362 70 386C102 334 162 308 222 324C254 286 314 278 362 312C398 338 416 372 414 410C458 402 500 420 530 452C560 452 592 470 620 520Z"
+    />
+    <path
+      class="cloud-stroke"
+      d="M-82 416C-38 376 16 362 70 386C102 334 162 308 222 324C254 286 314 278 362 312C398 338 416 372 414 410C458 402 500 420 530 452"
+    />
+
+    <path
+      class="cloud-fill cloud-fill-back"
+      d="M1514 520V348C1472 310 1428 298 1382 316C1356 268 1304 244 1254 258C1220 222 1166 216 1118 244C1082 268 1064 302 1066 340C1016 330 968 352 940 394C900 392 864 412 836 448C822 470 808 494 790 520Z"
+    />
+    <path
+      class="cloud-stroke"
+      d="M1508 350C1468 312 1428 298 1382 316C1356 268 1304 244 1254 258C1220 222 1166 216 1118 244C1082 268 1064 302 1066 340C1016 330 968 352 940 394C900 392 864 412 836 448"
+    />
+    <path
+      class="cloud-dash"
+      d="M1490 362C1454 330 1418 318 1378 334C1350 290 1304 270 1260 282C1222 250 1172 248 1130 272C1100 292 1086 320 1088 352C1042 346 998 366 974 402C940 402 906 420 882 450"
+    />
+
+    <path
+      class="cloud-fill cloud-fill-front"
+      d="M1528 520V410C1484 374 1426 362 1370 386C1338 334 1278 308 1218 324C1184 286 1124 278 1074 312C1036 338 1018 372 1020 410C974 402 930 420 898 452C868 452 836 470 808 520Z"
+    />
+    <path
+      class="cloud-stroke"
+      d="M1520 414C1478 376 1426 362 1370 386C1338 334 1278 308 1218 324C1184 286 1124 278 1074 312C1036 338 1018 372 1020 410C974 402 930 420 898 452"
+    />
+
+    <path
+      class="cloud-fill cloud-fill-center"
+      d="M248 520C280 484 322 466 370 470C396 432 448 414 500 426C534 390 594 382 642 406C692 376 752 382 794 420C846 410 898 430 930 470C980 466 1024 484 1060 520Z"
+    />
+    <path
+      class="cloud-stroke"
+      d="M280 486C308 470 340 464 370 470C396 432 448 414 500 426C534 390 594 382 642 406C692 376 752 382 794 420C846 410 898 430 930 470C980 466 1024 484 1060 520"
+    />
+  </svg>
+</template>
