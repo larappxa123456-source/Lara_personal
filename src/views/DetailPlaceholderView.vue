@@ -1,7 +1,4 @@
 <script setup>
-import rednoteWorkflowVideo from '@/assets/video/小红书n8n.mp4'
-import weiboAnalysisVideo from '@/assets/video/微博分析视频.mp4'
-
 defineProps({
   eyebrow: {
     type: String,
@@ -17,18 +14,13 @@ defineProps({
   },
   backLabel: {
     type: String,
-    default: '返回',
+    default: 'Back',
   },
   videoKey: {
     type: String,
     default: '',
   },
 })
-
-const videos = {
-  rednote: rednoteWorkflowVideo,
-  weibo: weiboAnalysisVideo,
-}
 </script>
 
 <template>
@@ -36,13 +28,8 @@ const videos = {
     <section class="detail-placeholder-card">
       <p>{{ eyebrow }}</p>
       <h1>{{ title }}</h1>
-
-      <div v-if="videos[videoKey]" class="detail-video-frame">
-        <video :src="videos[videoKey]" controls playsinline preload="metadata"></video>
-      </div>
-      <span v-else>内容占位中</span>
-
-      <RouterLink :to="backTo">{{ backLabel }} →</RouterLink>
+      <span>Content coming soon.</span>
+      <RouterLink :to="backTo">{{ backLabel }} -></RouterLink>
     </section>
   </main>
 </template>
